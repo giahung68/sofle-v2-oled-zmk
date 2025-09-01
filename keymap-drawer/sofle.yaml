@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', ESC, Q, W, E, R, T, Y, U, I, O, P, '=', TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
+    X, C, V, B, MUTE, '', N, M, ',', ., /, \, LEFT CONTROL, LALT, LEFT COMMAND, lower, SPACE, ENTER, BACKSPACE, raise, LEFT, RIGHT]
   lower:
-  - '&studio_unlock'
+  - '&bootloader'
   - F1
   - F2
   - F3
@@ -16,27 +16,27 @@ layers:
   - F10
   - F11
   - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - '6'
   - '7'
-  - '8'
+  - UP ARROW
   - '9'
   - '0'
   - F12
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - BT CLR ALL
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
   - ^
-  - '&'
-  - KP MULTIPLY
-  - (
+  - LEFT
+  - DOWN
+  - RIGHT ARROW
   - )
   - '|'
   - {t: ▽, type: trans}
@@ -61,8 +61,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+LEFT
+  - Ctl+RIGHT ARROW
   raise:
   - BT CLR
   - {t: BT, h: '0'}
@@ -120,68 +120,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB TOG
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
