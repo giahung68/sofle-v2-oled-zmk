@@ -21,8 +21,8 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - '6'
-  - '7'
+  - '['
+  - ']'
   - UP ARROW
   - '9'
   - '0'
@@ -33,7 +33,7 @@ layers:
   - {t: BT DISC, h: '2'}
   - {t: BT DISC, h: '3'}
   - {t: BT DISC, h: '4'}
-  - ^
+  - \
   - LEFT
   - DOWN
   - RIGHT ARROW
