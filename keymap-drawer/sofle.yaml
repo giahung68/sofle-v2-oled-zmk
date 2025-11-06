@@ -15,12 +15,12 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - BACKSPACE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - (
   - )
   - UP ARROW
@@ -28,23 +28,23 @@ layers:
   - '0'
   - F12
   - BT CLR ALL
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
-  - {t: BT DISC, h: '2'}
-  - {t: BT DISC, h: '3'}
-  - {t: BT DISC, h: '4'}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - \
   - LEFT
   - DOWN
   - RIGHT ARROW
   - )
   - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
+  - SLEEP
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
@@ -53,7 +53,7 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - {t: BT, h: '1'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
